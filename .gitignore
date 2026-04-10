@@ -1,0 +1,9 @@
+cat > .gitignore << 'EOF'
+venv/
+.idea/
+node_modules/
+.env
+__pycache__/
+documents/
+frontend/package-lock.json
+EOF
